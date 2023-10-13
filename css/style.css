@@ -1,0 +1,288 @@
+.jumbotron {
+  padding-top: 600px;
+  background-color: #e2edff;
+}
+
+#projects {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/Gili\ Pasir.jpg), no-repeat center center;
+  background-size: cover;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.banner {
+  background: url(img/Gili\ Pasir.jpg) no-repeat center center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+.imageform {
+  background: url(../img/gili\ kondo.JPG) no-repeat center center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+.image {
+  background-color: #e2edff;
+  background-size: cover;
+  color: black;
+}
+
+.image .gambar {
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-nav>li.clr1 a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li.clr2 a {
+  color: #ffeb3b;
+}
+
+.navbar-default .navbar-nav > li.clr3 a {
+  color: #5ec64d;
+}
+
+.navbar-default .navbar-nav > li.clr4 a {
+  color: #29aae2;
+}
+
+.navbar-default .navbar-nav > li.clr5 a {
+  color: #cee229;
+}
+
+.navbar-default .navbar-nav > li.clr1.active a {
+  color: #fff;
+  background: #f55;
+}
+
+.navbar-default .navbar-nav > li.clr1 a:hover {
+  background: rgba(255, 85, 85, 0.75);
+}
+
+.navbar-default .navbar-nav > li.clr2.active a {
+  color: #fff;
+  background: #973cb6;
+}
+
+.navbar-default .navbar-nav > li.clr2 a:hover {
+  background: rgba(151, 60, 182, 0.66);
+}
+
+.navbar-default .navbar-nav > li.clr3.active a {
+  color: #fff;
+  background: #5ec64d;
+}
+
+.navbar-default .navbar-nav > li.clr3 a:hover {
+  background: rgba(94, 198, 77, 0.78);
+}
+
+.navbar-default .navbar-nav > li.clr4.active a {
+  color: #fff;
+  background: #29aae2;
+}
+
+.navbar-default .navbar-nav > li.clr4 a:hover {
+  background: rgba(41, 170, 226, 0.62);
+}
+
+.navbar-default .navbar-nav > li.clr5.active a {
+  color: #fff;
+  background: #cee229;
+}
+
+.navbar-default .navbar-nav > li.clr5 a:hover {
+  background: rgba(206, 226, 41, 0.63);
+}
+
+.navbar-default {
+  background-color: #3b5998;
+  font-size: 18px;
+  border-color: none;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+.pemisah-btnnav {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.recent {
+  padding-top: 20px;
+}
+
+.info-meta {
+  padding-top: 10px;
+  color: #9999;
+}
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #9c9c9c;
+}
+
+.footer-bottom {
+  background-color: #3b5998;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item::after {
+  content: "";
+  opacity: 0;
+  transition: all 0.2s;
+  height: 3px;
+  width: 100%;
+  background-color: rgb(195, 227, 35);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.nav-item:hover::after {
+  opacity: 1;
+}
+
+.nav-item-item {
+  padding-left: 30px;
+  width: 150px;
+  height: 50px;
+  padding-top: 2px;
+}
+.nav-item-item .nav-link:hover {
+  background-color: rgb(130, 128, 128);
+  border: none;
+}
+
+/* Navbar Style Hover END */
+
+/* Navbar Styleeeeee Endddddd */
+
+/* Card Hover */
+
+.card {
+  transition: all 0.3s;
+  box-shadow: #212121;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Bg-Registration */
+.bg-registration {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/gili\ kondo.JPG), no-repeat center center;
+  background-size: cover;
+}
+
+/* .pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+.pt-5,
+.py-5 {
+  padding-top: 3rem !important;
+} */
+.container,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #656565;
+  text-align: left;
+  background-color: #f3f3f3;
+}
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #7ab730;
+  --secondary: #f4faec;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #ffffff;
+  --dark: #212121;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Poppins", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
